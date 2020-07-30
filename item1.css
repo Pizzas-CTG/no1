@@ -1,0 +1,160 @@
+/* Created by Sudarshan */
+
+* {
+    padding:0;
+    margin:0;
+   
+    text-decoration:none ;
+}
+body{
+  
+
+ 
+background: url(https://1.bp.blogspot.com/-OpTrWHim-V0/XaBvJrVmZcI/AAAAAAAABkI/2KiFhmuxyBkllNvY2LN2Ir_11HlfDkMAQCLcBGAsYHQ/s1600/giphy.gif);
+
+background-position: center;
+}
+
+.enca{
+  background: black;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+}
+
+.wrapper{
+width: 90%;
+max-width: 1180px;
+margin: auto;
+overflow: hidden;
+}
+
+.logo{
+  color: white;
+  font-size: 50px;
+   font-family: 'Diplomata SC', cursive;
+  line-height:  70px;
+  float: left;
+}
+ nav{
+  line-height:  70px;
+  float: left;
+ }
+ nav a{
+   color: cornsilk;
+   display: inline-block;
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   padding:  20px 10px;
+   line-height: normal;
+   font-size: 16px;
+   -webkit-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+
+ @media only screen and (min-width:400px) and (max-width:767px)
+{
+  .enca{
+    height: 70px;
+  }
+  .logo{
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: -10px;
+  }
+  nav{
+    margin-top:-60px ;
+    padding-bottom: 30px;
+    transform: translateX(-3%);
+  }
+}
+ nav a:hover{
+   color: rgb(164, 170, 165);
+   border-bottom: 5px solid rgb(0, 0, 0);
+ }
+article{
+    padding-top: 100px;
+    padding: 40px;
+}
+
+
+    article{
+        padding: 200px;
+        vertical-align: 100px;
+    }
+
+main{
+    padding-bottom: 0px;
+vertical-align: 10px;
+}
+
+
+
+  .band {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    
+    @media (min-width: 30em) {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    @media (min-width: 60em) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  
+    
+    
+  
+    article {
+      padding: 20px;
+      flex: 1;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    
+    
+  
+    
+  
+  .item-1 {
+    @media (min-width: 60em) {
+      grid-column: 1 / span 2;
+      
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }
+
+
+.texto{
+    background-color: seagreen;
+}
+
+#ai1box{
+    
+   border: solid;
+   border-style: double;
+}
+
+.i1h{
+    font-family: 'Metamorphous', cursive;
+}
+
